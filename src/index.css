@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+.hide-scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.hide-scroller-firefox {
+    -ms-overflow-style: none;
+    /* IE and Edge /
+    scrollbar-width: none;
+    / Firefox */
+}
+
+.selectPadding {
+    padding: 10px;
+}
+
+.css-5mmmz-MuiInputBase-input-MuiOutlinedInput-input.Mui-disabled {
+    cursor: pointer;
+}
+
+.css-5mmmz-MuiInputBase-input-MuiOutlinedInput-input {
+    padding: 0.6rem !important;
+}
+
+.attendance-overview {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid white;
+}
+
+.td {
+    /* padding-left: 15px; */
+    text-align: center;
+    font-size: 25px;
+}
+
+.th {
+    background-color: #6854A1;
+    color: white;
+    font-size: 30px;
+}
+
+.salaryheading {
+    background-color: #6854A1;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.grossheading {
+    background-color: #6854A1;
+    color: white;
+    padding-left: 15px;
+    font-weight: bold;
+}
+
+/* tr:nth-child(even) {
+    background-color: #d3d1d1;
+} */
+
+.backgrond-color:nth-child(even) {
+    background-color: #d3d1d1;
+}
+
+.salary-table-backgrond-color:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.signature {
+    position: absolute;
+    right: 18px;
+    font-size: 30px;
+}
+
+.css-1nu2tsa-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: #614B9F !important;
+}
+
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginationItem {
+    background: #fff;
+    border: 2px solid #666;
+    padding: 10px 15px;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    position: relative;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.paginationItem span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prev,
+.next {
+    background: #fff;
+    border: none;
+    padding: 10px;
+    color: blue;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.paginationItem.active {
+    border: 1px solid #888;
+    color: #888;
+    pointer-events: none;
+}
+
+.prev.disabled,
+.next.disabled {
+    pointer-events: none;
+    box-shadow: none;
+    color: #999;
+}

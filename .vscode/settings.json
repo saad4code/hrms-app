@@ -1,0 +1,14 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.formatOnSave": true,
+	"eslint.workingDirectories": ["./src",],
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"eslint.validate": [
+		"javascript",
+	],
+	"compile-hero.disable-compile-files-on-did-save-code": false,
+}
